@@ -19,48 +19,49 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +1
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
-║    ◉— *𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭* —◉
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *𝗛ola, ${taguser}*
-╰═══╡✯✯✯✯✯✯✯✯✯╞═══╯
+    const str = `
+     𝐋𝐚𝐫𝐢𝐨𝐬 𝐕𝟐.𝟎 ⚙️
 
-┏━━━━━━━━━━━━━━━━┓
-┃ *< MENU+18 />*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 🔞 _${usedPrefix}pack_
-┣ ඬ⃟ 🔞 _${usedPrefix}pack2_
-┣ ඬ⃟ 🔞 _${usedPrefix}pack3_
-┣ ඬ⃟ 🔞 _${usedPrefix}videoxxx_
-┣ ඬ⃟ 🔞 _${usedPrefix}videolesbixxx_
-┣ ඬ⃟ 🔞 _${usedPrefix}tetas_
-┣ ඬ⃟ 🔞 _${usedPrefix}booty_
-┣ ඬ⃟ 🔞 _${usedPrefix}ecchi_
-┣ ඬ⃟ 🔞 _${usedPrefix}furro_
-┣ ඬ⃟ 🔞 _${usedPrefix}imagenlesbians_
-┣ ඬ⃟ 🔞 _${usedPrefix}panties_
-┣ ඬ⃟ 🔞 _${usedPrefix}pene_
-┣ ඬ⃟ 🔞 _${usedPrefix}porno_
-┣ ඬ⃟ 🔞 _${usedPrefix}randomxxx_
-┣ ඬ⃟ 🔞 _${usedPrefix}pechos_
-┣ ඬ⃟ 🔞 _${usedPrefix}yaoi_
-┣ ඬ⃟ 🔞 _${usedPrefix}yaoi2_
-┣ ඬ⃟ 🔞 _${usedPrefix}yuri_
-┣ ඬ⃟ 🔞 _${usedPrefix}yuri2_
-┣ ඬ⃟ 🔞 _${usedPrefix}trapito_
-┣ ඬ⃟ 🔞 _${usedPrefix}hentai_
-┣ ඬ⃟ 🔞 _${usedPrefix}nsfwloli_
-┣ ඬ⃟ 🔞 _${usedPrefix}nsfworgy_
-┣ ඬ⃟ 🔞 _${usedPrefix}nsfwfoot_
-┣ ඬ⃟ 🔞 _${usedPrefix}nsfwass_
-┣ ඬ⃟ 🔞 _${usedPrefix}nsfwbdsm_
-┣ ඬ⃟ 🔞 _${usedPrefix}nsfwcum_
-┣ ඬ⃟ 🔞 _${usedPrefix}nsfwero_
-┣ ඬ⃟ 🔞 _${usedPrefix}nsfwfemdom_
-┣ ඬ⃟ 🔞 _${usedPrefix}nsfwglass_
-┣ ඬ⃟ 🔞 _${usedPrefix}hentaipdf *<texto>*_
-┣ ඬ⃟ 🔞 _${usedPrefix}hentaisearch *<texto>*_
-┗━━━━━━━━━━━━━━━━┛`.trim();
+   𝐇𝐨𝐥𝐚, ${taguser}
+
+
+
+     ⚙️ 𝐌𝐄𝐍𝐔 +𝟏𝟖 ⚙️
+
+🔞 ${usedPrefix}pack
+🔞 ${usedPrefix}pack2
+🔞 ${usedPrefix}pack3
+🔞 ${usedPrefix}videoxxx
+🔞 ${usedPrefix}videolesbixxx
+🔞 ${usedPrefix}tetas
+🔞 ${usedPrefix}booty
+🔞 ${usedPrefix}ecchi
+🔞 ${usedPrefix}furro
+🔞 ${usedPrefix}imagenlesbians
+🔞 ${usedPrefix}panties
+🔞 ${usedPrefix}pene
+🔞 ${usedPrefix}porno
+🔞 ${usedPrefix}randomxxx
+🔞 ${usedPrefix}pechos
+🔞 ${usedPrefix}yaoi
+🔞 ${usedPrefix}yaoi2
+🔞 ${usedPrefix}yuri
+🔞 ${usedPrefix}yuri2
+🔞 ${usedPrefix}trapito
+🔞 ${usedPrefix}hentai
+🔞 ${usedPrefix}nsfwloli
+🔞 ${usedPrefix}nsfworgy
+🔞 ${usedPrefix}nsfwfoot
+🔞 ${usedPrefix}nsfwass
+🔞 ${usedPrefix}nsfwbdsm
+🔞 ${usedPrefix}nsfwcum
+🔞 ${usedPrefix}nsfwero
+🔞 ${usedPrefix}nsfwfemdom
+🔞 ${usedPrefix}nsfwglass
+🔞 ${usedPrefix}hentaipdf *<texto>*
+🔞 ${usedPrefix}hentaisearch *<texto>*
+
+   𝐋𝐚𝐫𝐢𝐨𝐬 𝐕𝟐.𝟎 ⚙️`.trim();
     if (m.isGroup) {
       await conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
       await conn.sendFile(m.chat, vn, 'La biblia.mp3', null, m, true, {type: 'audioMessage', ptt: true});
