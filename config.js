@@ -10,40 +10,39 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['5219992095479', '👑 Mystic - Creador 👑', true],
-  ['50499698072', '💫 Mystic - Collaborator 1 💫', true],
-  ['51940617554', '💫 Mystic - Collaborator 2 💫', true],
-  ['51996089079', '💫 Mystic - Collaborator 3 💫', true],
-  ['5218442286089', '💫 Mystic - Collaborator 4 💫', true],
-  ['50246028932', '💫 Mystic - Collaborator 5 💫', true],
-  ['5212412377467', '💫 Mystic - Collaborator 6 💫', true],
-  ['5215533827255', '💫 Mystic - Collaborator 7 💫', false],
-  ['59895555511', '💫 Mystic - Collaborator 8 💫', true],
-  ['393518398856','💫 Mystic - Tester Fabri115💫', true],
-  ['593968585283'],
-  ['5219993404349'],
-  ['5219991402134'],
-  ['5492266466080'],
-  ['5219996125657'],
-  ['5218442114446'],
-  ['59894808483'],
-  ['593980586516'], 
-  ['595975740803'],  
-  ['5492266613038'],
-  ['50431953376'],
-  ['595992611272']
+  ['50253501417', ' 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️', true],
+  ['50253501417', ' 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️', true],
+  ['50253501417', ' 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️', true],
+  ['50253501417', ' 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️', true],
+  ['50253501417', ' 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️', true],
+  ['50253501417', ' 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️', true],
+  ['50253501417', ' 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️', true],
+  ['50253501417', ' 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️', false],
+  ['50253501417', ' 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️', true],
+  ['50253501417','  𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️', true],
+  ['50253501417'],
+  ['50253501417'],
+  ['50253501417'],
+  ['50253501417'],
+  ['50253501417'],
+  ['50253501417'],
+  ['50253501417'],
+  ['50253501417'], 
+  ['50253501417'],  
+  ['50253501417'], 
+  ['50253501417']
 ];
 
-global.suittag = ['5219993404349'];
-global.prems = ['51995386439'];
+global.suittag = ['50253501417'];
+global.prems = ['50253501417'];
 
-global.packname = 'Sticker';
-global.author = 'The Mystic - Bot';
-global.wm = 'The Mystic - Bot';
-global.titulowm = 'The Mystic - Bot';
-global.titulowm2 = `The Mystic - Bot`
-global.igfg = 'The Mystic - Bot';
-global.wait = '*[ ⏳ ] Cargando...*';
+global.packname = '𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️';
+global.author = '𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️';
+global.wm = '𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️';
+global.titulowm = '𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️';
+global.titulowm2 = `𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️`
+global.igfg = '𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️';
+global.wait = '*❗ Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -63,14 +62,14 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ The Mystic - Bot`;
-global.gt = 'The Mystic - Bot';
-global.mysticbot = 'The Mystic - Bot';
-global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.waitt = '*[ ⏳ ] Cargando...*';
-global.waittt = '*[ ⏳ ] Cargando...*';
-global.waitttt = '*[ ⏳ ] Cargando...*';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️`;
+global.gt = '𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️';
+global.mysticbot = ' 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️';
+global.md = 'https://github.com/Bots-Larios/Larios-V2.0';
+global.mysticbot = 'https://github.com/Bots-Larios/Larios-V2.0';
+global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
+global.waittt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
+global.waitttt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 global.nomorown = '5219993404349';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
