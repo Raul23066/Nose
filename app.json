@@ -1,10 +1,10 @@
 {
-  "name": "TheMystic-Bot-MD",
-  "website": "https://github.com/BrunoSobrino",
-  "description": "Subscribete a The Shadow Borkers - Bot (≧▽≦)",
-  "repository": "https://github.com/BrunoSobrino/TheMystic-Bot-MD",
-  "logo": "https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/pictures/heroku-icon.jpg",
-  "success_url": "https://github.com/BrunoSobrino/TheMystic-Bot-MD",
+  "name": "Larios.Psd",
+  "website": "https://github.com/larios.psd",
+  "description": "Sigueme en Ig",
+  "repository": "https://github.com/Mlarios-2021097/Larios.Bot",
+  "logo": "https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/Larios.PNG",
+  "success_url": "https://github.com/Mlarios-2021097/Larios.Bot",
   "keywords": [
     "nodejs",
     "heroku",
