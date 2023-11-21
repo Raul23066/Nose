@@ -1500,8 +1500,8 @@ export async function callUpdate(callUpdate) {
         const callmsg = await mconn.conn.reply(nk.from, `Hola *@${nk.from.split('@')[0]}*, las ${nk.isVideo ? 'videollamadas' : 'llamadas'} no están permitidas, serás bloqueado.\n-\nSi accidentalmente llamaste póngase en contacto con mi creador para que te desbloquee!`, false, {mentions: [nk.from]});
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑;;;\nFN:𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑\nORG:𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑\nTITLE:\nitem1.TEL;waid=5219992095479:+521 999 209 5479\nitem1.X-ABLabel:𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑\nEND:VCARD`;
-        await mconn.conn.sendMessage(nk.from, {contacts: {displayName: '𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑', contacts: [{vcard}]}}, {quoted: callmsg});
+        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;@𝐋𝐀𝐑𝐈𝐎𝐒.𝐏𝐒𝐃 ⚙️;;;\nFN:@𝐋𝐀𝐑𝐈𝐎𝐒.𝐏𝐒𝐃 ⚙️\nORG:𝐋𝐀𝐑𝐈𝐎𝐒.𝐏𝐒𝐃 ⚙️\nTITLE:\nitem1.TEL;waid=50253501417:+502 5350 1417\nitem1.X-ABLabel:𝐋𝐀𝐑𝐈𝐎𝐒.𝐏𝐒𝐃 ⚙️\nX-WA-BIZ-DESCRIPTION:❗ 𝐂𝐎𝐍𝐓𝐀𝐂𝐓𝐀𝐌𝐄 𝐏𝐀𝐑𝐀 𝐂𝐑𝐄𝐀𝐑 𝐓𝐔 𝐏𝐑𝐎𝐏𝐈𝐎 𝐁𝐎𝐓 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋𝐈𝐙𝐀𝐃𝐎.\nX-WA-BIZ-NAME:𝐋𝐀𝐑𝐈𝐎𝐒.𝐏𝐒𝐃 ⚙️\nEND:VCARD`;
+        await mconn.conn.sendMessage(nk.from, {contacts: {displayName: '𝐋𝐀𝐑𝐈𝐎𝐒.𝐏𝐒𝐃 ⚙️', contacts: [{vcard}]}}, {quoted: callmsg});
         await mconn.conn.updateBlockStatus(nk.from, 'block');
       }
     }
@@ -1521,15 +1521,15 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
         if (!msg) return 
 	if (!msg?.isGroup) return 
 	const antideleteMessage = `
-┏━━━━━━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━━━━━━
-*■ Usuario:* @${participant.split`@`[0]}
-*■ Hora:* ${time}
-*■ Fecha:* ${date}
-*■ Enviando el mensaje eliminado...*
+        𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⚙️
+* Usuario:* @${participant.split`@`[0]}
+* Hora:* ${time}
+* Fecha:* ${date}
+* Enviando el mensaje eliminado...*
     
-*■ Para desactivar esta función, escribe el comando:*
-*—◉ #disable antidelete*
-┗━━━━━━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━━━━━━`.trim();
+* Para desactivar esta función, escribe el comando:*
+* #disable antidelete*
+       𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀 ⚙️ `.trim();
         await mconn.conn.sendMessage(msg.chat, {text: antideleteMessage, mentions: [participant]}, {quoted: msg})
         mconn.conn.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
     } catch (e) {
