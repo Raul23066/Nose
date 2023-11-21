@@ -7,7 +7,7 @@ const handler = async (m, {conn, usedPrefix}) => {
 
 *—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 𝙲𝙾𝙻𝙰𝙱𝙾𝚁𝙰𝙳𝙾𝚁 12 𝙴𝚂 wa.me/50253501417*`.trim();
   const buttonMessage= {
-    'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
+    'document': {url: `https://github.com/Bots-Larios/Larios-V2.0`},
     'mimetype': `application/${document}`,
     'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
     'fileLength': 99999999999999,
