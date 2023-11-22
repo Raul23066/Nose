@@ -1539,19 +1539,19 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
 
 global.dfail = (type, m, conn) => {
   const msg = {
-    rowner: '*[ ℹ️ ] Este comando solo puede ser utilizado por el propietario del bot.*',
-    owner: '*[ ℹ️ ] Este comando solo puede ser utilizado por el propietario del bot.*',
-    mods: '*[ ℹ️ ] Este comando solo puede ser utilizado por moderadores y el propietario del bot.*',
-    premium: '*[ ℹ️ ] Este comando solo puede ser utilizado por usurios premium y el propietario del bot.*',
-    group: '*[ ℹ️ ] Este comando solo puede ser utilizado en grupos.*',
-    private: '*[ ℹ️ ] Este comando solo puede ser utilizado en el chat privado del bot.*',
-    admin: '*[ ℹ️ ] Este comando solo puede ser usado por administradores del grupo.*',
-    botAdmin: '*[ ℹ️ ] Para utilizar este comando es necesario que el bot sea administrador del grupo.*',
-    unreg: '*[ ℹ️ ] Para utilizar este comando debes estar registrado.*\n\n*[ 💡 ] Utiliza el comando:* _#verificar nombre.edad_ *para registrarte.*',
-    restrict: '*[ ℹ️ ] Este comando fue desactivado por el propietario del bot.*',
+    rowner: '*ℹ️ Este comando solo puede ser utilizado por el propietario del bot.*',
+    owner: '*ℹ️ Este comando solo puede ser utilizado por el propietario del bot.*',
+    mods: '*ℹ️ Este comando solo puede ser utilizado por moderadores y el propietario del bot.*',
+    premium: '*ℹ️ Este comando solo puede ser utilizado por usurios premium y el propietario del bot.*',
+    group: '*ℹ️  Este comando solo puede ser utilizado en grupos.*',
+    private: '*ℹ️ Este comando solo puede ser utilizado en el chat privado del bot.*',
+    admin: '*ℹ️ Este comando solo puede ser usado por administradores del grupo.*',
+    botAdmin: '*ℹ️ Para utilizar este comando es necesario que el bot sea administrador del grupo.*',
+    unreg: '*ℹ️ Para utilizar este comando debes estar registrado.*\n\n*[ 💡 ] Utiliza el comando:* _#verificar nombre.edad_ *para registrarte.*',
+    restrict: '*ℹ️ Este comando fue desactivado por el propietario del bot.*',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '*[ ⚠ ] Advertencia*', body: 'ᴛʜᴇ ᴍʏsᴛɪᴄ - ʙᴏᴛ', thumbnail: imagen1, sourceUrl: 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '*Advertencia*', body: '𝐋𝐚𝐫𝐢𝐨𝐬 𝐕.𝟐𝟎 ⚙️', thumbnail: imagen1, sourceUrl: 'https://github.com/Bots-Larios/Larios-V2.0'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
