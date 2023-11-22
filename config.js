@@ -44,12 +44,12 @@ global.titulowm2 = `𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️`
 global.igfg = '𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️';
 global.wait = '*❗ Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
-global.imagen1 = fs.readFileSync('./Menu2.jpg');
-global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
-global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
-global.imagen4 = fs.readFileSync('./Menu.png');
-global.imagen5 = fs.readFileSync('./src/+18.jpg');
-global.imagen6 = fs.readFileSync('./Menu3.png');
+global.imagen1 = fs.readFileSync('./Larios.PNG');
+global.imagen2 = fs.readFileSync('./src/Larios.PNG');
+global.imagen3 = fs.readFileSync('./src/Larios.PNG');
+global.imagen4 = fs.readFileSync('./Larios.PNG');
+global.imagen5 = fs.readFileSync('./src/Larios.PNG');
+global.imagen6 = fs.readFileSync('./Larios.PNG');
 
 global.mods = [];
 
