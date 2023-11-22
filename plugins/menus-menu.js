@@ -26,14 +26,14 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
    𝐇𝐨𝐥𝐚, ${taguser}
 
-⚙️ 𝐂𝐑𝐄𝐀𝐃𝐎𝐑 𝐃𝐄𝐋 𝐁𝐎𝐓: 𝐋𝐀𝐑𝐈𝐎𝐒.𝐏𝐒𝐃 ⚙️
-⚙️ 𝐍𝐔𝐌𝐄𝐑𝐎: wa.me/50253501417
-⚙️ 𝐅𝐄𝐂𝐇𝐀: ${date}
+𝐂𝐑𝐄𝐀𝐃𝐎𝐑 𝐃𝐄𝐋 𝐁𝐎𝐓: 𝐋𝐀𝐑𝐈𝐎𝐒.𝐏𝐒𝐃 ⚙️
+𝐍𝐔𝐌𝐄𝐑𝐎: wa.me/50253501417
+𝐅𝐄𝐂𝐇𝐀: ${date}
 
 𝐔𝐬𝐚 𝐞𝐥 𝐒𝐢𝐠𝐮𝐢𝐞𝐧𝐭𝐞 𝐂𝐨𝐦𝐚𝐧𝐝𝐨 𝐩𝐚𝐫𝐚 𝐯𝐞𝐫 𝐏𝐫𝐞𝐜𝐢𝐨𝐬 𝐝𝐞𝐥 𝐁𝐨𝐭, 
 𝐏𝐥𝐚𝐭𝐚𝐟𝐨𝐫𝐦𝐚𝐬 𝐲 𝐒𝐞𝐠𝐮𝐢𝐝𝐨𝐫𝐞𝐬 𝐩𝐚𝐫𝐚 𝐈𝐠, 𝐅𝐛, 𝐓𝐓
 
-⚙️ ${usedPrefix}menu2
+${usedPrefix}menu2
 
     ⚙️ 𝐋𝐈𝐒𝐓𝐀 𝐃𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 ⚙️
 
@@ -55,7 +55,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
     ⚙️ 𝐉𝐔𝐄𝐆𝐎𝐒 ⚙️
 
-⚙️ ${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*
 ⚙️ ${usedPrefix}fake *<texto1> <@tag> <texto2>*
 ⚙️ ${usedPrefix}ppt *<papel / tijera /piedra>*
 ⚙️ ${usedPrefix}prostituto *<nombre / @tag>*
