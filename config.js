@@ -10,38 +10,38 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['50253501417', ' 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️', true],
-  ['50253501417', ' 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️', true],
-  ['50253501417', ' 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️', true],
-  ['50253501417', ' 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️', true],
-  ['50253501417', ' 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️', true],
-  ['50253501417', ' 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️', true],
-  ['50253501417', ' 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️', true],
-  ['50253501417', ' 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️', false],
-  ['50253501417', ' 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️', true],
-  ['50253501417','  𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️', true],
-  ['50253501417'],
-  ['50253501417'],
-  ['50253501417'],
-  ['50253501417'],
-  ['50253501417'],
-  ['50253501417'],
-  ['50253501417'],
-  ['50253501417'], 
-  ['50253501417'],  
-  ['50253501417'], 
-  ['50253501417']
+  ['573244351354', ' Costeño.X ⚙️', true],
+  ['573244351354', ' Costeño.X ⚙️', true],
+  ['573244351354', ' Costeño.X ⚙️', true],
+  ['573244351354', ' Costeño.X ⚙️', true],
+  ['573244351354', ' Costeño.X ⚙️', true],
+  ['573244351354', ' Costeño.X ⚙️', true],
+  ['573244351354', ' Costeño.X ⚙️', true],
+  ['573244351354', ' Costeño.X ⚙️', false],
+  ['573244351354', ' Costeño.X ⚙️', true],
+  ['573244351354','  Costeño.X ⚙️', true],
+  ['573244351354'],
+  ['573244351354'],
+  ['573244351354'],
+  ['573244351354'],
+  ['573244351354'],
+  ['573244351354'],
+  ['573244351354'],
+  ['573244351354'], 
+  ['573244351354'],  
+  ['573244351354'], 
+  ['573244351354']
 ];
 
-global.suittag = ['50253501417'];
-global.prems = ['50253501417'];
+global.suittag = ['573244351354'];
+global.prems = ['573244351354'];
 
-global.packname = '𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️';
-global.author = '𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️';
-global.wm = '𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️';
-global.titulowm = '𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️';
-global.titulowm2 = `𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️`
-global.igfg = '𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️';
+global.packname = 'Costeño.X ⚙️';
+global.author = 'Costeño.X ⚙️';
+global.wm = 'Costeño.X ⚙️';
+global.titulowm = 'Costeño.X ⚙️';
+global.titulowm2 = `Costeño.X ⚙️`
+global.igfg = 'Costeño.X ⚙️';
 global.wait = '*❗ Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Larios.PNG');
@@ -62,9 +62,9 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️`;
-global.gt = '𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️';
-global.mysticbot = ' 𝐋𝐚𝐫𝐢𝐨𝐬.𝐏𝐬𝐝 ⚙️';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ Costeño.X ⚙️`;
+global.gt = 'Costeño.X ⚙️';
+global.mysticbot = ' Costeño.X ⚙️';
 global.md = 'https://github.com/Bots-Larios/Larios-V2.0';
 global.mysticbot = 'https://github.com/Bots-Larios/Larios-V2.0';
 global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
