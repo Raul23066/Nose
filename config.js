@@ -10,38 +10,38 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['573244351354', ' Costeño.X ⚙️', true],
-  ['573244351354', ' Costeño.X ⚙️', true],
-  ['573244351354', ' Costeño.X ⚙️', true],
-  ['573244351354', ' Costeño.X ⚙️', true],
-  ['573244351354', ' Costeño.X ⚙️', true],
-  ['573244351354', ' Costeño.X ⚙️', true],
-  ['573244351354', ' Costeño.X ⚙️', true],
-  ['573244351354', ' Costeño.X ⚙️', false],
-  ['573244351354', ' Costeño.X ⚙️', true],
-  ['573244351354','  Costeño.X ⚙️', true],
-  ['573244351354'],
-  ['573244351354'],
-  ['573244351354'],
-  ['573244351354'],
-  ['573244351354'],
-  ['573244351354'],
-  ['573244351354'],
-  ['573244351354'], 
-  ['573244351354'],  
-  ['573244351354'], 
-  ['573244351354']
+  ['525611531927', ' 𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️', true],
+  ['525611531927', ' 𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️', true],
+  ['525611531927', ' 𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️', true],
+  ['525611531927', ' 𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️', true],
+  ['525611531927', ' 𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️', true],
+  ['525611531927', ' 𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️', true],
+  ['525611531927', ' 𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️', true],
+  ['525611531927', ' 𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️', false],
+  ['525611531927', ' 𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️', true],
+  ['525611531927','  𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️', true],
+  ['525611531927'],
+  ['525611531927'],
+  ['525611531927'],
+  ['525611531927'],
+  ['525611531927'],
+  ['525611531927'],
+  ['525611531927'],
+  ['525611531927'], 
+  ['525611531927'],  
+  ['525611531927'], 
+  ['525611531927']
 ];
 
 global.suittag = ['573244351354'];
 global.prems = ['573244351354'];
 
-global.packname = 'Costeño.X ⚙️';
-global.author = 'Costeño.X ⚙️';
-global.wm = 'Costeño.X ⚙️';
-global.titulowm = 'Costeño.X ⚙️';
-global.titulowm2 = `Costeño.X ⚙️`
-global.igfg = 'Costeño.X ⚙️';
+global.packname = '𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️';
+global.author = '𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️';
+global.wm = '𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️';
+global.titulowm = '𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️';
+global.titulowm2 = `𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️`
+global.igfg = '𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️';
 global.wait = '*❗ Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Larios.PNG');
@@ -62,9 +62,9 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ Costeño.X ⚙️`;
-global.gt = 'Costeño.X ⚙️';
-global.mysticbot = ' Costeño.X ⚙️';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️`;
+global.gt = '𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️';
+global.mysticbot = ' 𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️';
 global.md = 'https://github.com/Bots-Larios/Larios-V2.0';
 global.mysticbot = 'https://github.com/Bots-Larios/Larios-V2.0';
 global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
