@@ -24,8 +24,8 @@ const handler = async (m, { conn, usedPrefix }) => {
   const info = `
 ╠═〘 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〙 ═
 ╠
-╠➥ [🤴🏻] 𝙲𝚁𝙴𝙰𝙳𝙾𝚁: *𝐋𝐚𝐫𝐢𝐨𝐬 𝐕𝟐.𝟎*
-╠➥ [#️⃣] 𝙽𝚄𝙼𝙴𝚁𝙾: *+502 5350 1417*
+╠➥ [🤴🏻] 𝙲𝚁𝙴𝙰𝙳𝙾𝚁: *𝓡𝓔𝓧 𝓑𝓞𝓣*
+╠➥ [#️⃣] 𝙽𝚄𝙼𝙴𝚁𝙾: *525611531927*
 ╠➥ [🎳] 𝙿𝚁𝙴𝙵𝙸𝙹𝙾: *${usedPrefix}*
 ╠➥ [🔐] 𝙲𝙷𝙰𝚃𝚂 𝙿𝚁𝙸𝚅𝙰𝙳𝙾𝚂: *${chats.length - groups.length}*
 ╠➥ [🦜] 𝙲𝙷𝙰𝚃𝚂 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂: *${groups.length}* 
@@ -43,7 +43,7 @@ const handler = async (m, { conn, usedPrefix }) => {
 ╠➥ [👨‍🦯] 𝚅𝙴𝙻𝙾𝙲𝙸𝙳𝙰𝙳: 
 ╠  *${speed} ms* 
 ╠
-╠═〘 𝐋𝐚𝐫𝐢𝐨𝐬 𝐕𝟐.𝟎 〙 ═
+╠═〘 𝓡𝓔𝓧 𝓑𝓞𝓣 〙 ═
 `.trim();
   const doc = [
     "pdf",
@@ -54,7 +54,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://github.com/Bots-Larios/Larios-V2.0` },
+    document: { url: `https://github.com/Bots` },
     mimetype: `application/${document}`,
     fileName: `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
     fileLength: 99999999999999,
