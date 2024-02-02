@@ -23,7 +23,7 @@ const handler = async (m, {conn, usedPrefix}) => {
         'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
         'body': wm,
         'thumbnail': imagen1,
-        'sourceUrl': 'https://www.youtube.com/channel/UCFTQZ6i-QsfYGCch9Wq-wtQ'}},
+        'sourceUrl': 'https://www.instagram.com/bu_2348?igsh=MWsyeHlzMmszNW54ZA=='}},
     'caption': text,
     'footer': wm,
     // 'buttons':[
