@@ -22,16 +22,15 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = ` 
-     𝓡𝓔𝓧 𝓑𝓞𝓣⚙️
+     NAJERA BOT ⚙️
 
    𝐇𝐨𝐥𝐚, ${taguser}
 
-𝐂𝐑𝐄𝐀𝐃𝐎𝐑 𝐃𝐄𝐋 𝐁𝐎𝐓: 𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️
-𝐍𝐔𝐌𝐄𝐑𝐎: wa.me/525611531927
+𝐂𝐑𝐄𝐀𝐃𝐎𝐑 𝐃𝐄𝐋 𝐁𝐎𝐓: NAJERA BOT ⚙️
+𝐍𝐔𝐌𝐄𝐑𝐎: wa.me/50249497668
 𝐅𝐄𝐂𝐇𝐀: ${date}
 
-𝐔𝐬𝐚 𝐞𝐥 𝐒𝐢𝐠𝐮𝐢𝐞𝐧𝐭𝐞 𝐂𝐨𝐦𝐚𝐧𝐝𝐨 𝐩𝐚𝐫𝐚 𝐯𝐞𝐫 𝐏𝐫𝐞𝐜𝐢𝐨𝐬 𝐝𝐞𝐥 𝐁𝐨𝐭, 
-𝐏𝐥𝐚𝐭𝐚𝐟𝐨𝐫𝐦𝐚𝐬 𝐲 𝐒𝐞𝐠𝐮𝐢𝐝𝐨𝐫𝐞𝐬 𝐩𝐚𝐫𝐚 𝐈𝐠, 𝐅𝐛, 𝐓𝐓
+𝐔𝐬𝐚 𝐞𝐥 𝐒𝐢𝐠𝐮𝐢𝐞𝐧𝐭𝐞 𝐂𝐨𝐦𝐚𝐧𝐝𝐨 𝐩𝐚𝐫𝐚 𝐯𝐞𝐫 𝐏𝐫𝐞𝐜𝐢𝐨𝐬 𝐝𝐞𝐥 𝐁𝐨𝐭
 
 ${usedPrefix}menu2
 
@@ -394,7 +393,7 @@ ${usedPrefix}menu2
 ⚙️ ${usedPrefix}saveimage
 ⚙️ ${usedPrefix}viewimage
 
-    𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️ `.trim();
+    NAJERA BOT⚙️ `.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
