@@ -10,15 +10,15 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['50249497668', ' NAJERA BOT ⚙️', true],
-  ['50249497668', ' NAJERA BOT ⚙️', true],
-  ['50249497668', ' NAJERA BOT ⚙️', true],
-  ['50249497668', ' NAJERA BOT ⚙️', true],
-  ['50249497668', ' NAJERA BOT ⚙️', true],
-  ['50249497668', ' NAJERA BOT ⚙️', true],
-  ['50249497668', ' NAJERA BOT ⚙️', true],
-  ['50249497668', ' NAJERA BOT ⚙️', false],
-  ['50249497668', ' NAJERA BOT ⚙️', true],
+  ['50258397168', ' NAJERA BOT ⚙️', true],
+  ['50258397168', ' NAJERA BOT ⚙️', true],
+  ['50258397168', ' NAJERA BOT ⚙️', true],
+  ['50258397168', ' NAJERA BOT ⚙️', true],
+  ['50258397168', ' NAJERA BOT ⚙️', true],
+  ['50258397168', ' NAJERA BOT ⚙️', true],
+  ['50258397168', ' NAJERA BOT ⚙️', true],
+  ['50258397168', ' NAJERA BOT ⚙️', false],
+  ['529983356499', ' BU ⚙️', true],
   ['525611531927','  NAJERA BOT ⚙️', true],
   ['525611531927'],
   ['525611531927'],
@@ -33,8 +33,8 @@ global.owner = [
   ['525611531927']
 ];
 
-global.suittag = ['573244351354'];
-global.prems = ['573244351354'];
+global.suittag = ['50258397168'];
+global.prems = ['50258397168'];
 
 global.packname = 'NAJERA BOT ⚙️';
 global.author = 'NAJERA BOT ⚙️';
