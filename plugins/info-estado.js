@@ -5,13 +5,13 @@ const handler = async (m, {conn}) => {
     const _uptime = process.uptime() * 1000;
     const uptime = clockString(_uptime);
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
-    const str = `   NAJERA BOT ⚙️
+    const str = `   BOT MONSTER ⚙️
 │
 │ *➤ ʜᴏʟᴀ ${taguser}*
 │
 │ *=> 🤖 ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:* ${uptime}
 │ *=> ✅ ʙᴏᴛ ᴅᴇ ᴜsᴏ ᴘᴜʙʟɪᴄᴏ*
-│ *=> 👑 ᴄʀᴇᴀᴅᴏʀ: NAJERA BOT*
+│ *=> 👑 ᴄʀᴇᴀᴅᴏʀ: BOT MONSTER*
 │ 
 ╰────────────────`.trim();
     if (m.isGroup) {
