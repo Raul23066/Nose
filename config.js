@@ -10,38 +10,38 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['50258397168', ' NAJERA BOT ⚙️', true],
-  ['50258397168', ' NAJERA BOT ⚙️', true],
-  ['50258397168', ' NAJERA BOT ⚙️', true],
-  ['50258397168', ' NAJERA BOT ⚙️', true],
-  ['50258397168', ' NAJERA BOT ⚙️', true],
-  ['50258397168', ' NAJERA BOT ⚙️', true],
-  ['50258397168', ' NAJERA BOT ⚙️', true],
-  ['50258397168', ' NAJERA BOT ⚙️', false],
-  ['529983356499', ' BU ⚙️', true],
-  ['525611531927','  NAJERA BOT ⚙️', true],
-  ['525611531927'],
-  ['525611531927'],
-  ['525611531927'],
-  ['525611531927'],
-  ['525611531927'],
-  ['525611531927'],
-  ['525611531927'],
-  ['525611531927'], 
-  ['525611531927'],  
-  ['525611531927'], 
-  ['525611531927']
+  ['528683088045', ' BU ⚙️', true],
+  ['525587037692', ' DANIEL⚙️', true],
+  ['528683088045', ' BU ⚙️', true],
+  ['525587037692', ' DANIEL ⚙️', true],
+  ['528683088045', ' BU ⚙️', true],
+  ['525587037692', ' DANIEL ⚙️', true],
+  ['528683088045', ' BU ⚙️', true],
+  ['525587037692', ' DANIEL ⚙️', false],
+  ['528683088045', ' BU ⚙️', true],
+  ['528683088045','  BU ⚙️', true],
+  ['528683088045'],
+  ['528683088045'],
+  ['525587037692'],
+  ['528683088045'],
+  ['528683088045'],
+  ['525587037692'],
+  ['528683088045'],
+  ['528683088045'], 
+  ['525587037692'],  
+  ['528683088045'], 
+  ['528683088045']
 ];
 
-global.suittag = ['50258397168'];
-global.prems = ['50258397168'];
+global.suittag = ['528683088045'];
+global.prems = ['528683088045'];
 
-global.packname = 'NAJERA BOT ⚙️';
-global.author = 'NAJERA BOT ⚙️';
-global.wm = 'NAJERA BOT ⚙️';
-global.titulowm = 'NAJERA BOT ⚙️';
-global.titulowm2 = `NAJERA BOT ⚙️`
-global.igfg = ' NAJERA BOT ⚙️';
+global.packname = 'BOT MONSTER ⚙️';
+global.author = 'BOT MONSTER ⚙️';
+global.wm = 'BOT MONSTER ⚙️';
+global.titulowm = 'BOT MONSTER ⚙️';
+global.titulowm2 = `BOT MONSTER ⚙️`
+global.igfg = ' BOT MONSTER⚙️';
 global.wait = '*❗ Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Larios.PNG');
@@ -62,15 +62,15 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️`;
-global.gt = '𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️';
-global.mysticbot = ' 𝓡𝓔𝓧 𝓑𝓞𝓣 ⚙️';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ BOT MONSTER`;
+global.gt = 'BOT MONSTER';
+global.mysticbot = ' BOT MONSTER ';
 global.md = 'https://github.com/Bots-Larios/Larios-V2.0';
 global.mysticbot = 'https://github.com/Bots-Larios/Larios-V2.0';
 global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 global.waittt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 global.waitttt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
-global.nomorown = '5219993404349';
+global.nomorown = '528683088045';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
