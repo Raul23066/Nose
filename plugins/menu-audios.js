@@ -22,13 +22,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const str = `
     NAJERA BOT ⚙️
 
-   𝐇𝐨𝐥𝐚, ${taguser}
+   HOLA, ${taguser}
 
-𝐒𝐢 𝐃𝐞𝐬𝐞𝐚𝐬 𝐂𝐨𝐦𝐩𝐫𝐚𝐫 𝐞𝐥 𝐁𝐨𝐭, 𝐏𝐥𝐚𝐭𝐚𝐟𝐨𝐫𝐦𝐚𝐬
-𝐂𝐨𝐧𝐭𝐚́𝐜𝐭𝐚𝐦𝐞 𝐚𝐥 𝐒𝐢𝐠𝐮𝐢𝐞𝐧𝐭𝐞 𝐍𝐮́𝐦𝐞𝐫𝐨:
+SI DESEAS COMPRAR UNA METIDA DE VRGA COMUNICARTE CON MIS DUEÑOS PON .INFOCREADOR
 
-NAJERA BOT  ⚙️: wa.me/50249497668
-
+  CHAPITO BOT 
 𝐌𝐞́𝐭𝐨𝐝𝐨𝐬 𝐝𝐞 𝐏𝐚𝐠𝐨:
 𝐓𝐫𝐚𝐧𝐬𝐟𝐌𝐞́𝐭𝐨𝐝𝐨𝐬 𝐝𝐞 𝐏𝐚𝐠𝐨:
 𝐓𝐫𝐚𝐧𝐬𝐟𝐞𝐫𝐞𝐧𝐜𝐢𝐚 𝐌𝐞́𝐱𝐢𝐜𝐨, 𝐏𝐚𝐲𝐩𝐚𝐥
@@ -36,10 +34,10 @@ NAJERA BOT  ⚙️: wa.me/50249497668
          𝐌𝐄𝐍𝐔 𝐃𝐄 𝐏𝐑𝐄𝐂𝐈𝐎𝐒 
 
     ⚙️ 𝐏𝐑𝐄𝐂𝐈𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 ⚙️ 
-   30 𝐌𝐗 𝐜𝐚𝐝𝐚 𝐆𝐫𝐮𝐩𝐨 - 2 𝐃𝐋𝐒
+   50 𝐌𝐗 𝐜𝐚𝐝𝐚 𝐆𝐫𝐮𝐩𝐨 - 2 𝐃𝐋𝐒
 
    
-NAJERA BOT ⚙️`.trim();
+CHAPITO BOT ⚙️`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
