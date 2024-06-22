@@ -20,7 +20,7 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +1
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `
-     𝐋𝐚𝐫𝐢𝐨𝐬 𝐕𝟐.𝟎 ⚙️
+     CHAPITO BOT ⚙️
 
    𝐇𝐨𝐥𝐚, ${taguser}
 
@@ -61,7 +61,7 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +1
 🔞 ${usedPrefix}hentaipdf *<texto>*
 🔞 ${usedPrefix}hentaisearch *<texto>*
 
-   𝐋𝐚𝐫𝐢𝐨𝐬 𝐕𝟐.𝟎 ⚙️`.trim();
+   CHAPITO BOT ⚙️`.trim();
     if (m.isGroup) {
       await conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
       await conn.sendFile(m.chat, vn, 'La biblia.mp3', null, m, true, {type: 'audioMessage', ptt: true});
